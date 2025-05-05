@@ -26,7 +26,7 @@ export function HeroSection() {
             <a href="#projects">View Projects</a>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <a href="/resume/DhineshRV_software.pdf" download>
+            <a href="/dist/resume/DhineshRV_software.pdf" download>
               <Download className="mr-2 h-4 w-4" /> Download CV
             </a>
           </Button>

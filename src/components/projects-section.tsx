@@ -2,7 +2,10 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
-
+import fit from '../fitnes.png';
+import tp from '../travel.webp';
+import wa from '../weather.png';
+import fb from '../feedback.jpeg';
 type Project = {
   title: string;
   description: string;
@@ -16,28 +19,28 @@ const projects: Project[] = [
   {
     title: "Travel Planner",
     description: "A comprehensive travel planning application with itinerary management, personalized recommendations, expense tracking, and team collaboration features.",
-    image: "/placeholder.svg",
+    image: tp,
     technologies: ["React", "JavaScript", "CSS", "MongoDB"],
     github: "#",
   },
   {
     title: "Feedback System",
     description: "Secure platform allowing students to submit feedback privately, with comprehensive monitoring and analysis tools for administrators.",
-    image: "/placeholder.svg",
+    image: fb,
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "#",
   },
   {
     title: "Fitness Tracker",
     description: "Application designed to monitor and analyze users' physical activities and fitness levels with detailed progress tracking and personalized recommendations.",
-    image: "/placeholder.svg",
+    image: fit,
     technologies: ["JavaScript", "HTML", "CSS"],
     github: "#",
   },
   {
     title: "Weather App",
     description: "Real-time weather information application that provides accurate updates based on user location with an intuitive and responsive interface.",
-    image: "/placeholder.svg",
+    image: wa,
     technologies: ["React", "JavaScript", "CSS", "API Integration"],
     github: "#",
     liveDemo: "#",
